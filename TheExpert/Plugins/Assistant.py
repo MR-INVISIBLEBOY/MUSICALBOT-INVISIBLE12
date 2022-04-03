@@ -7,9 +7,9 @@ from pyrogram.types import (CallbackQuery, InlineKeyboardButton,
                             InlineQueryResultPhoto, InputTextMessageContent,
                             Message)
 
-from Yukki import SUDOERS, app, ASSISTANT_PREFIX, random_assistant
-from Yukki.Database import get_assistant, save_assistant
-from Yukki.Utilities.assistant import get_assistant_details
+from TheExpert import SUDOERS, app, ASSISTANT_PREFIX, random_assistant
+from TheExpert.Database import get_assistant, save_assistant
+from TheExpert.Utilities.assistant import get_assistant_details
 
 
 __MODULE__ = "Assistant"
