@@ -117,7 +117,7 @@
     },
     "UPSTREAM_REPO": {
       "description": "If you dont know this, Leave as it is",
-      "value": "https://github.com/attitudeking1/YukkiXMusic",
+      "value": "https://github.com/MR-INVISIBLEBOY/MUSICALBOT-INVISIBLE",
       "required": true
     },
     "UPSTREAM_BRANCH": {
