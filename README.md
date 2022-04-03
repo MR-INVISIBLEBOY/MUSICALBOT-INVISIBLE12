@@ -6,14 +6,14 @@
 <p align="center">
 <a href="https://python.org"><img src="http://forthebadge.com/images/badges/made-with-python.svg" alt="made-with-python"></a>
 <br>
-    <img src="https://img.shields.io/github/license/notreallyshikhar/YukkiMusicBot?style=for-the-badge" alt="LICENSE">
-    <img src="https://img.shields.io/github/contributors/notreallyshikhar/MUSICALBOT-INVISIBLE?style=for-the-badge" alt="Contributors">
-    <img src="https://img.shields.io/github/repo-size/notreallyshikhar/MUSICALBOT-INVISIBLE?style=for-the-badge" alt="Repository Size"> <br>
-    <img src="https://img.shields.io/github/forks/notreallyshikhar/MUSICALBOT-INVISIBLE?style=for-the-badge" alt="Forks">
-    <img src="https://img.shields.io/github/stars/notreallyshikhar/MUSICALBOT-INVISIBLE?style=for-the-badge" alt="Stars">
-    <img src="https://img.shields.io/github/watchers/notreallyshikhar/MUSICALBOT-INVISIBLE?style=for-the-badge" alt="Watchers">
-    <img src="https://img.shields.io/github/commit-activity/w/notreallyshikhar/MUSICALBOT-INVISIBLE?style=for-the-badge" alt="Commit Activity">
-    <img src="https://img.shields.io/github/issues/notreallyshikhar/MUSICALBOT-INVISIBLE?style=for-the-badge" alt="Issues">
+    <img src="https://img.shields.io/github/license/notreallyshikhar/MUSICALBOT-INVISIBLE?style=for-the-badge" alt="LICENSE">
+    <img src="https://img.shields.io/github/contributors/MR-INVISIBLEBOY/MUSICALBOT-INVISIBLE?style=for-the-badge" alt="Contributors">
+    <img src="https://img.shields.io/github/repo-size/MR-INVISIBLEBOY/MUSICALBOT-INVISIBLE?style=for-the-badge" alt="Repository Size"> <br>
+    <img src="https://img.shields.io/github/forks/MR-INVISIBLEBOY/MUSICALBOT-INVISIBLE?style=for-the-badge" alt="Forks">
+    <img src="https://img.shields.io/github/stars/MR-INVISIBLEBOY/MUSICALBOT-INVISIBLE?style=for-the-badge" alt="Stars">
+    <img src="https://img.shields.io/github/watchers/MR-INVISIBLEBOY/MUSICALBOT-INVISIBLE?style=for-the-badge" alt="Watchers">
+    <img src="https://img.shields.io/github/commit-activity/w/MR-INVISIBLEBOY/MUSICALBOT-INVISIBLE?style=for-the-badge" alt="Commit Activity">
+    <img src="https://img.shields.io/github/issues/MR-INVISIBLEBOY/MUSICALBOT-INVISIBLE?style=for-the-badge" alt="Issues">
 </p>
 
 <h3 align="center">
@@ -22,8 +22,8 @@
 
 <p align="center">
     A Support Group and ready-to-use running instance of this bot can be found on Telegram <br>
-    <a href="https://t.me/YukkiRobot"> YukkiMusicBot </a> |
-    <a href="https://t.me/OfficialYukkiSupport"> YukkiSupport </a>
+    <a href="https://t.me/MR_INVISIBLE_OFFICIAL"> YukkiMusicBot </a> |
+    <a href="https://t.me/MR_INVISIBLE_OFFICIAL"> YukkiSupport </a>
 </p>
     
 <h1 align="center">
@@ -71,11 +71,11 @@ bash start
 ## Contact & Support
 
 
-- [Telegram Channel](https://t.me/OfficialYukki")
-- [Telegram Support Group](https://t.me/OfficialYukkiSupport)
-- [Contact Owner](https://t.me/NotReallyShikhar)
+- [Telegram Channel](https://t.me/MR_INVISIBLE_OFFICIAL")
+- [Telegram Support Group](https://t.me/Invisible_LegendBot)
+- [Contact Owner](https://t.me/MR_INVISIBLE_OFFICIAL)
 
-## Why Yukki?
+## Why TheExpert?
     
 - Light and Fast Responsive
 - Includes Multi-Assistant Mode where you can use 5 Assistant Accounts for large number of chats.
@@ -87,7 +87,7 @@ bash start
 
 ## License
 
-Distributed under the [GNU General Public License v3.0 License.](https://github.com/notreallyshikhar/YukkiMusicBot/blob/main/LICENSE) See `LICENSE.md` for more information.
+Distributed under the [GNU General Public License v3.0 License.](https://github.com/MR-INVISIBLEBOY/MUSICALBOT-INVISIBLE/main/LICENSE) See `LICENSE.md` for more information.
 
 ## Acknowledgements
 
