@@ -1,5 +1,5 @@
-from Yukki import BOT_USERNAME, LOG_GROUP_ID, app
-from Yukki.Database import blacklisted_chats, is_gbanned_user, is_on_off
+from TheExpert import BOT_USERNAME, LOG_GROUP_ID, app
+from TheExpert.Database import blacklisted_chats, is_gbanned_user, is_on_off
 
 
 def checker(mystic):
