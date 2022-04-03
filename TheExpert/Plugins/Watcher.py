@@ -1,6 +1,6 @@
 from pyrogram import filters
-from Yukki import app, LOG_GROUP_ID, SUDOERS, OWNER_ID
-from Yukki.Database import is_on_off
+from TheExpert import app, LOG_GROUP_ID, SUDOERS, OWNER_ID
+from TheExpert.Database import is_on_off
 
 
 @app.on_message(filters.private & ~filters.user(SUDOERS))
