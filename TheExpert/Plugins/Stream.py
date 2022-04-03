@@ -4,23 +4,23 @@ from pyrogram import filters
 from pyrogram.types import (InlineKeyboardMarkup, InputMediaPhoto, Message, KeyboardButton, ReplyKeyboardMarkup, ReplyKeyboardRemove,
                             Voice)
 from youtube_search import YoutubeSearch
-from Yukki.Database import is_on_off, get_active_video_chats, get_video_limit, is_active_video_chat
-from Yukki import (BOT_USERNAME, DURATION_LIMIT, DURATION_LIMIT_MIN,
+from TheExpert.Database import is_on_off, get_active_video_chats, get_video_limit, is_active_video_chat
+from TheExpert import (BOT_USERNAME, DURATION_LIMIT, DURATION_LIMIT_MIN,
                    MUSIC_BOT_NAME, app, db_mem)
-from Yukki.Core.PyTgCalls.Converter import convert
-from Yukki.Core.PyTgCalls.Downloader import download
-from Yukki.Decorators.assistant import AssistantAdd
-from Yukki.Decorators.checker import checker
-from Yukki.Decorators.permission import PermissionCheck
-from Yukki.Inline import (playlist_markup, search_markup, search_markup2, stream_quality_markup, choose_markup, livestream_markup,
+from TheExpert.Core.PyTgCalls.Converter import convert
+from TheExpert.Core.PyTgCalls.Downloader import download
+from TheExpert.Decorators.assistant import AssistantAdd
+from TheExpert.Decorators.checker import checker
+from TheExpert.Decorators.permission import PermissionCheck
+from TheExpert.Inline import (playlist_markup, search_markup, search_markup2, stream_quality_markup, choose_markup, livestream_markup,
                           url_markup, url_markup2)
-from Yukki.Utilities.changers import seconds_to_min, time_to_seconds
-from Yukki.Utilities.chat import specialfont_to_normal
-from Yukki.Utilities.videostream import start_video_stream, start_live_stream
-from Yukki.Utilities.theme import check_theme
-from Yukki.Utilities.thumbnails import gen_thumb
-from Yukki.Utilities.url import get_url
-from Yukki.Utilities.youtube import (get_yt_info_id, get_yt_info_query, get_m3u8, 
+from TheExpert.Utilities.changers import seconds_to_min, time_to_seconds
+from TheExpert.Utilities.chat import specialfont_to_normal
+from TheExpert.Utilities.videostream import start_video_stream, start_live_stream
+from TheExpert.Utilities.theme import check_theme
+from TheExpert.Utilities.thumbnails import gen_thumb
+from TheExpert.Utilities.url import get_url
+from TheExpert.Utilities.youtube import (get_yt_info_id, get_yt_info_query, get_m3u8, 
                                      get_yt_info_query_slider)
 
 from youtubesearchpython import VideosSearch
