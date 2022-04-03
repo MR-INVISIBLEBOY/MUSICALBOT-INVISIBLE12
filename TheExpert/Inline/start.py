@@ -2,7 +2,7 @@ from config import MUSIC_BOT_NAME, SUPPORT_CHANNEL, SUPPORT_GROUP
 from pyrogram.types import (CallbackQuery, InlineKeyboardButton,
                             InlineKeyboardMarkup, InputMediaPhoto, Message)
 
-from Yukki import BOT_USERNAME
+from TheExpert import BOT_USERNAME
 
 def setting_markup2():
     buttons = [
