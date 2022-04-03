@@ -1,18 +1,18 @@
 {
-  "name": "Yukki Music Bot",
+  "name": "The Expert Music Bot",
   "description": "A Telegram Music Bot with proper functions written in Python with Pyrogram and Py-Tgcalls.",
-  "repository": "https://github.com/NotReallyShikhar/YukkiMusicBot",
-  "logo": "https://upload.wikimedia.org/wikipedia/commons/c/c3/Python-logo-notext.svg",
+  "repository": "https://github.com/MR-INVISIBLEBOY/MUSICALBOT-INVISIBLE",
+  "logo": "https://telegra.ph/file/b33382c391d3bb5825fb2.jpg",
   "keywords": [
   "python3",
   "telegram",
   "bot",
-  "Yukki",
-  "YukkiMusicBot",
+  "TheExpert",
+  "MUSICALBOT-INVISIBLE",
   "telegram-bot",
   "pyrogram"
   ],
-  "repository": "https://github.com/notreallyshikhar/YukkiMusicBot",
+  "repository": "https://github.com/MR-INVISIBLEBOY/MUSICALBOT-INVISIBLE",
   "stack": "container",
   "env": {
     "API_ID": {
@@ -57,7 +57,7 @@
     },
     "SUPPORT_GROUP": {
       "description": "Support Group Link if you have any, Leave blank if no support. Your link must start with https://t.me/",
-      "value": "",
+      "value": "@Invisible_LegendBot",
       "required": false
     },
     "OWNER_ID": {
@@ -65,7 +65,7 @@
       "value": "",
       "required": true
     },
-    "STRING_SESSION1": {
+    "INVISIBLE_SESSION1": {
       "description": "A Pyrogram String Session. One Assistant is Compulsory.",
       "value": "",
       "required": true
