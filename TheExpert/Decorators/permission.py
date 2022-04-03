@@ -1,6 +1,6 @@
 from typing import Dict, List, Union
 
-from Yukki import BOT_ID, app
+from TheExpert import BOT_ID, app
 
 
 def PermissionCheck(mystic):
