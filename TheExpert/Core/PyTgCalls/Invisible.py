@@ -21,20 +21,20 @@ from pytgcalls.types.input_stream.quality import (
 from pytgcalls.types.stream import StreamAudioEnded, StreamVideoEnded
 
 from config import get_queue, STRING5, STRING1, STRING2, STRING3, STRING4
-from Yukki import (ASS_CLI_1, ASS_CLI_2, ASS_CLI_3, ASS_CLI_4, ASS_CLI_5,
+from TheExpert import (ASS_CLI_1, ASS_CLI_2, ASS_CLI_3, ASS_CLI_4, ASS_CLI_5,
                    MUSIC_BOT_NAME, app, db_mem)
-from Yukki.Core.PyTgCalls import Queues
-from Yukki.Core.PyTgCalls.Converter import convert
-from Yukki.Core.PyTgCalls.Downloader import download
-from Yukki.Database import get_assistant, remove_active_chat, remove_active_video_chat
-from Yukki.Inline import (audio_markup, audio_timer_markup_start,
+from TheExpert.Core.PyTgCalls import Queues
+from TheExpert.Core.PyTgCalls.Converter import convert
+from TheExpert.Core.PyTgCalls.Downloader import download
+from TheExpert.Database import get_assistant, remove_active_chat, remove_active_video_chat
+from TheExpert.Inline import (audio_markup, audio_timer_markup_start,
                           primary_markup, timer_markup)
-from Yukki.Utilities.changers import time_to_seconds
-from Yukki.Utilities.chat import specialfont_to_normal
-from Yukki.Utilities.theme import check_theme
-from Yukki.Utilities.thumbnails import gen_thumb
-from Yukki.Utilities.timer import start_timer
-from Yukki.Utilities.youtube import get_yt_info_id, get_m3u8
+from TheExpert.Utilities.changers import time_to_seconds
+from TheExpert.Utilities.chat import specialfont_to_normal
+from TheExpert.Utilities.theme import check_theme
+from TheExpert.Utilities.thumbnails import gen_thumb
+from TheExpert.Utilities.timer import start_timer
+from TheExpert.Utilities.youtube import get_yt_info_id, get_m3u8
 
 
 ### Clients
