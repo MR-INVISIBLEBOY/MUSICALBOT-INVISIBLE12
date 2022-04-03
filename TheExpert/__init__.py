@@ -14,9 +14,9 @@ from config import ASSISTANT_PREFIX, DURATION_LIMIT_MIN, LOG_GROUP_ID, UPSTREAM_
 from config import MONGO_DB_URI as mango
 from config import MUSIC_BOT_NAME, OWNER_ID, SUDO_USERS, get_queue
 from config import STRING1, STRING2, STRING3, STRING4, STRING5, LOG_SESSION
-from Yukki.Core.Clients.cli import (ASS_CLI_1, ASS_CLI_2, ASS_CLI_3,
+from TheExpert.Core.Clients.cli import (ASS_CLI_1, ASS_CLI_2, ASS_CLI_3,
                                     ASS_CLI_4, ASS_CLI_5, LOG_CLIENT, app)
-from Yukki.Utilities.changers import time_to_seconds
+from TheExpert.Utilities.changers import time_to_seconds
 from git.exc import GitCommandError, InvalidGitRepositoryError
 
 loop = asyncio.get_event_loop()
