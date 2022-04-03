@@ -18,7 +18,7 @@ from TheExpert import (ASS_CLI_1, ASS_CLI_2, ASS_CLI_3, ASS_CLI_4, ASS_CLI_5, LO
                    ASSNAME3, ASSNAME4, ASSNAME5, BOT_ID, BOT_NAME, app)
 
 
-from TheExpert.Core.PyTgCalls.Yukki import (pytgcalls1, pytgcalls2, pytgcalls3,
+from TheExpert.Core.PyTgCalls.TheExpert import (pytgcalls1, pytgcalls2, pytgcalls3,
                                         pytgcalls4, pytgcalls5)
 from TheExpert.Database import get_active_chats, get_sudoers, remove_active_chat, get_active_video_chats, remove_active_video_chat, is_on_off
 from TheExpert.Inline import private_panel
@@ -59,7 +59,7 @@ async def initiate_bot():
         )
         for all_module in ALL_MODULES:
             imported_module = importlib.import_module(
-                "Yukki.Plugins." + all_module
+                "TheExpert.Plugins." + all_module
             )
             if (
                 hasattr(imported_module, "__MODULE__")
@@ -79,7 +79,7 @@ async def initiate_bot():
         console.print("")
         status.update(status="[bold blue]Importation Completed!",)
     console.print(
-        "[bold green]Congrats!! Yukki Music Bot has started successfully!\n"
+        "[bold green]Congrats!! TheExpert Music Bot has started successfully!\n"
     )
     try:
         await app.send_message(LOG_GROUP_ID,"<b>Congrats!! Music Bot has started successfully!</b>",)
@@ -102,8 +102,8 @@ async def initiate_bot():
             console.print(f"\n[red]Stopping Bot")
             return
         try:  
-            await ASS_CLI_1.join_chat("OfficialYukki")
-            await ASS_CLI_1.join_chat("YukkiSupport")
+            await ASS_CLI_1.join_chat("TheExpertOfficial")
+            await ASS_CLI_1.join_chat("TheExpert")
         except:
             pass
         console.print(f"├[red] Assistant 1 Started as {ASSNAME1}!")
@@ -121,8 +121,8 @@ async def initiate_bot():
             console.print(f"\n[red]Stopping Bot")
             return
         try:
-            await ASS_CLI_2.join_chat("OfficialYukki")
-            await ASS_CLI_2.join_chat("YukkiSupport")
+            await ASS_CLI_2.join_chat("OfficialTheExpert")
+            await ASS_CLI_2.join_chat("TheExpert")
         except:
             pass
         console.print(f"├[red] Assistant 2 Started as {ASSNAME2}!")
@@ -140,8 +140,8 @@ async def initiate_bot():
             console.print(f"\n[red]Stopping Bot")
             return
         try:
-            await ASS_CLI_3.join_chat("OfficialYukki")
-            await ASS_CLI_3.join_chat("YukkiSupport")
+            await ASS_CLI_3.join_chat("OfficialTheExpert")
+            await ASS_CLI_3.join_chat("TheExpert")
         except:
             pass
         console.print(f"├[red] Assistant 3 Started as {ASSNAME3}!")
@@ -159,8 +159,8 @@ async def initiate_bot():
             console.print(f"\n[red]Stopping Bot")
             return
         try:
-            await ASS_CLI_4.join_chat("OfficialYukki")
-            await ASS_CLI_4.join_chat("YukkiSupport")
+            await ASS_CLI_4.join_chat("OfficialTheExpert")
+            await ASS_CLI_4.join_chat("TheExpert")
         except:
             pass
         console.print(f"├[red] Assistant 4 Started as {ASSNAME4}!")
@@ -178,8 +178,8 @@ async def initiate_bot():
             console.print(f"\n[red]Stopping Bot")
             return
         try:
-            await ASS_CLI_5.join_chat("OfficialYukki")
-            await ASS_CLI_5.join_chat("YukkiSupport")
+            await ASS_CLI_5.join_chat("OfficialTheExpert")
+            await ASS_CLI_5.join_chat("TheExpert")
         except:
             pass
         console.print(f"├[red] Assistant 5 Started as {ASSNAME5}!")
@@ -197,11 +197,11 @@ async def initiate_bot():
             console.print(f"\n[red]Stopping Bot")
             return
         try:
-            await LOG_CLIENT.join_chat("OfficialYukki")
-            await LOG_CLIENT.join_chat("YukkiSupport")
+            await LOG_CLIENT.join_chat("OfficialTheExpert")
+            await LOG_CLIENT.join_chat("TheExpert")
         except:
             pass
-    console.print(f"└[red] Yukki Music Bot Boot Completed.")
+    console.print(f"└[red] TheExpert Music Bot Boot Completed.")
     if STRING1 != "None":
         await pytgcalls1.start()
     if STRING2 != "None":
@@ -358,7 +358,7 @@ All commands can be used with: /
     )
 
 
-@app.on_callback_query(filters.regex("shikhar"))
+@app.on_callback_query(filters.regex("mr-invisibleboy"))
 async def shikhar(_, CallbackQuery):
     text, keyboard = await help_parser(CallbackQuery.from_user.mention)
     await CallbackQuery.message.edit(text, reply_markup=keyboard)
