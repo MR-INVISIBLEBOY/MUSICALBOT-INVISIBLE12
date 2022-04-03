@@ -6,25 +6,25 @@ from pyrogram.types import (InlineKeyboardMarkup, InputMediaPhoto, Message,
                             Voice)
 from youtube_search import YoutubeSearch
 
-from Yukki import (BOT_USERNAME, DURATION_LIMIT, DURATION_LIMIT_MIN,
+from TheExpert import (BOT_USERNAME, DURATION_LIMIT, DURATION_LIMIT_MIN,
                    MUSIC_BOT_NAME, app, db_mem)
-from Yukki.Core.PyTgCalls.Converter import convert
-from Yukki.Core.PyTgCalls.Downloader import download
-from Yukki.Decorators.assistant import AssistantAdd
-from Yukki.Decorators.checker import checker
-from Yukki.Decorators.logger import logging
-from Yukki.Decorators.permission import PermissionCheck
-from Yukki.Database import get_video_limit, get_active_video_chats, is_active_video_chat
-from Yukki.Inline import (playlist_markup, search_markup, search_markup2, livestream_markup,
+from TheExpert.Core.PyTgCalls.Converter import convert
+from TheExpert.Core.PyTgCalls.Downloader import download
+from TheExpert.Decorators.assistant import AssistantAdd
+from TheExpert.Decorators.checker import checker
+from TheExpert.Decorators.logger import logging
+from TheExpert.Decorators.permission import PermissionCheck
+from TheExpert.Database import get_video_limit, get_active_video_chats, is_active_video_chat
+from TheExpert.Inline import (playlist_markup, search_markup, search_markup2, livestream_markup,
                           url_markup, url_markup2)
-from Yukki.Utilities.changers import seconds_to_min, time_to_seconds
-from Yukki.Utilities.chat import specialfont_to_normal
-from Yukki.Utilities.stream import start_stream, start_stream_audio
-from Yukki.Utilities.videostream import start_stream_video
-from Yukki.Utilities.theme import check_theme
-from Yukki.Utilities.thumbnails import gen_thumb
-from Yukki.Utilities.url import get_url
-from Yukki.Utilities.youtube import (get_yt_info_id, get_yt_info_query,
+from TheExpert.Utilities.changers import seconds_to_min, time_to_seconds
+from TheExpert.Utilities.chat import specialfont_to_normal
+from TheExpert.Utilities.stream import start_stream, start_stream_audio
+from TheExpert.Utilities.videostream import start_stream_video
+from TheExpert.Utilities.theme import check_theme
+from TheExpert.Utilities.thumbnails import gen_thumb
+from TheExpert.Utilities.url import get_url
+from TheExpert.Utilities.youtube import (get_yt_info_id, get_yt_info_query,
                                      get_yt_info_query_slider)
 
 loop = asyncio.get_event_loop()
