@@ -7,29 +7,29 @@ from pyrogram import filters
 from pyrogram.types import InlineKeyboardMarkup
 
 from config import get_queue
-from Yukki import BOT_USERNAME, MUSIC_BOT_NAME, app, db_mem
-from Yukki.Core.PyTgCalls import Queues
-from Yukki.Core.PyTgCalls.Converter import convert
-from Yukki.Core.PyTgCalls.Downloader import download
-from Yukki.Core.PyTgCalls.Yukki import (join_stream, pause_stream, skip_video_stream,
+from TheExpert import BOT_USERNAME, MUSIC_BOT_NAME, app, db_mem
+from TheExpert.Core.PyTgCalls import Queues
+from TheExpert.Core.PyTgCalls.Converter import convert
+from TheExpert.Core.PyTgCalls.Downloader import download
+from TheExpert.Core.PyTgCalls.Yukki import (join_stream, pause_stream, skip_video_stream,
                                         resume_stream, skip_stream,
                                         stop_stream)
-from Yukki.Database import (_get_playlists, delete_playlist, get_playlist,
+from TheExpert.Database import (_get_playlists, delete_playlist, get_playlist,
                             get_playlist_names, is_active_chat, save_playlist)
-from Yukki.Database.queue import (add_active_chat, is_active_chat,
+from TheExpert.Database.queue import (add_active_chat, is_active_chat,
                                   is_music_playing, music_off, music_on,
                                   remove_active_chat)
-from Yukki.Decorators.admins import AdminRightsCheckCB
-from Yukki.Decorators.checker import checkerCB
-from Yukki.Inline import (audio_markup, audio_markup2, download_markup, secondary_markup2,
+from TheExpert.Decorators.admins import AdminRightsCheckCB
+from TheExpert.Decorators.checker import checkerCB
+from TheExpert.Inline import (audio_markup, audio_markup2, download_markup, secondary_markup2,
                           fetch_playlist, paste_queue_markup, primary_markup)
-from Yukki.Utilities.changers import time_to_seconds
-from Yukki.Utilities.chat import specialfont_to_normal
-from Yukki.Utilities.paste import isPreviewUp, paste_queue
-from Yukki.Utilities.theme import check_theme
-from Yukki.Utilities.thumbnails import gen_thumb
-from Yukki.Utilities.timer import start_timer
-from Yukki.Utilities.youtube import get_yt_info_id, get_m3u8
+from TheExpert.Utilities.changers import time_to_seconds
+from TheExpert.Utilities.chat import specialfont_to_normal
+from TheExpert.Utilities.paste import isPreviewUp, paste_queue
+from TheExpert.Utilities.theme import check_theme
+from TheExpert.Utilities.thumbnails import gen_thumb
+from TheExpert.Utilities.timer import start_timer
+from TheExpert.Utilities.youtube import get_yt_info_id, get_m3u8
 
 loop = asyncio.get_event_loop()
 
