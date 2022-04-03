@@ -1,7 +1,7 @@
 from pyrogram.types import (CallbackQuery, InlineKeyboardButton,
                             InlineKeyboardMarkup, InputMediaPhoto, Message)
 
-from Yukki import db_mem, BOT_USERNAME
+from TheExpert import db_mem, BOT_USERNAME
 
 
 def url_markup(videoid, duration, user_id, query, query_type):
