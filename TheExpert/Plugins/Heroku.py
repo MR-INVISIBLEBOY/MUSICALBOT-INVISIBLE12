@@ -15,11 +15,11 @@ from time import time, strftime
 from pyrogram import Client, filters
 
 from config import HEROKU_API_KEY, HEROKU_APP_NAME, UPSTREAM_BRANCH, UPSTREAM_REPO
-from Yukki import app, SUDOERS, LOG_GROUP_ID, MUSIC_BOT_NAME
-from Yukki.Utilities.heroku import is_heroku, user_input
-from Yukki.Utilities.paste import isPreviewUp, paste_queue
+from TheExpert import app, SUDOERS, LOG_GROUP_ID, MUSIC_BOT_NAME
+from TheExpert.Utilities.heroku import is_heroku, user_input
+from TheExpert.Utilities.paste import isPreviewUp, paste_queue
 from git.exc import GitCommandError, InvalidGitRepositoryError
-from Yukki.Database import (get_active_chats, remove_active_chat)
+from TheExpert.Database import (get_active_chats, remove_active_chat)
 
 from pyrogram.types import Message
 
