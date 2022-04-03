@@ -3,9 +3,9 @@ from typing import Dict, List, Union
 
 from pyrogram.errors import UserAlreadyParticipant, UserNotParticipant
 
-from Yukki import MUSIC_BOT_NAME, app, random_assistant
-from Yukki.Database import get_assistant, save_assistant
-from Yukki.Utilities.assistant import get_assistant_details
+from TheExpert import MUSIC_BOT_NAME, app, random_assistant
+from TheExpert.Database import get_assistant, save_assistant
+from TheExpert.Utilities.assistant import get_assistant_details
 
 
 def AssistantAdd(mystic):
