@@ -18,13 +18,13 @@ from pyrogram.types import Message
 from pymongo import MongoClient
 from config import MONGO_DB_URI, MUSIC_BOT_NAME
 from config import STRING5, STRING4, STRING3, STRING2, STRING1
-from Yukki import (ASS_CLI_1, ASS_CLI_2, ASS_CLI_3, ASS_CLI_4, ASS_CLI_5,
+from TheExpert import (ASS_CLI_1, ASS_CLI_2, ASS_CLI_3, ASS_CLI_4, ASS_CLI_5,
                    BOT_ID, MUSIC_BOT_NAME, SUDOERS, app, boottime)
-from Yukki.Database import get_gbans_count, get_served_chats, get_sudoers
-from Yukki.Inline import (stats1, stats2, stats3, stats4, stats5, stats6,
+from TheExpert.Database import get_gbans_count, get_served_chats, get_sudoers
+from TheExpert.Inline import (stats1, stats2, stats3, stats4, stats5, stats6,
                           stats7)
-from Yukki.Plugins import ALL_MODULES
-from Yukki.Utilities.ping import get_readable_time
+from TheExpert.Plugins import ALL_MODULES
+from TheExpert.Utilities.ping import get_readable_time
 
 __MODULE__ = "Stats"
 __HELP__ = """
