@@ -11,9 +11,9 @@ from pyrogram.types import (CallbackQuery, InlineKeyboardButton,
                             InputMediaDocument, InputMediaVideo, Message)
 from youtubesearchpython import VideosSearch
 
-from Yukki import MUSIC_BOT_NAME, app
-from Yukki.Utilities.changers import time_to_seconds
-from Yukki.Utilities.download import get_formats, get_type
+from TheExpert import MUSIC_BOT_NAME, app
+from TheExpert.Utilities.changers import time_to_seconds
+from TheExpert.Utilities.download import get_formats, get_type
 
 user_time = {}
 flex = {}
