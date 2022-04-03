@@ -2,7 +2,7 @@ import asyncio
 import importlib
 import os
 import re
-from Yukki.Core.Clients.cli import LOG_CLIENT
+from TheExpert.Core.Clients.cli import LOG_CLIENT
 
 from config import LOG_GROUP_ID
 from pyrogram import filters
@@ -13,17 +13,17 @@ from rich.table import Table
 from youtubesearchpython import VideosSearch
 
 from config import LOG_GROUP_ID, STRING5, STRING4, STRING3, STRING2, STRING1, LOG_SESSION
-from Yukki import (ASS_CLI_1, ASS_CLI_2, ASS_CLI_3, ASS_CLI_4, ASS_CLI_5, LOG_CLIENT,
+from TheExpert import (ASS_CLI_1, ASS_CLI_2, ASS_CLI_3, ASS_CLI_4, ASS_CLI_5, LOG_CLIENT,
                    ASSID1, ASSID2, ASSID3, ASSID4, ASSID5, ASSNAME1, ASSNAME2, OWNER_ID,
                    ASSNAME3, ASSNAME4, ASSNAME5, BOT_ID, BOT_NAME, app)
 
 
-from Yukki.Core.PyTgCalls.Yukki import (pytgcalls1, pytgcalls2, pytgcalls3,
+from TheExpert.Core.PyTgCalls.Yukki import (pytgcalls1, pytgcalls2, pytgcalls3,
                                         pytgcalls4, pytgcalls5)
-from Yukki.Database import get_active_chats, get_sudoers, remove_active_chat, get_active_video_chats, remove_active_video_chat, is_on_off
-from Yukki.Inline import private_panel
-from Yukki.Plugins import ALL_MODULES
-from Yukki.Utilities.inline import paginate_modules
+from TheExpert.Database import get_active_chats, get_sudoers, remove_active_chat, get_active_video_chats, remove_active_video_chat, is_on_off
+from TheExpert.Inline import private_panel
+from TheExpert.Plugins import ALL_MODULES
+from TheExpert.Utilities.inline import paginate_modules
 
 loop = asyncio.get_event_loop()
 console = Console()
