@@ -1,12 +1,12 @@
 from pyrogram import Client, filters
 from pyrogram.types import Message
 
-from Yukki import SUDOERS, app
-from Yukki.Database import (_get_authusers, delete_authuser, get_authuser,
+from TheExpert import SUDOERS, app
+from TheExpert.Database import (_get_authusers, delete_authuser, get_authuser,
                             get_authuser_count, get_authuser_names,
                             save_authuser)
-from Yukki.Decorators.admins import AdminActual
-from Yukki.Utilities.changers import (alpha_to_int, int_to_alpha,
+from TheExpert.Decorators.admins import AdminActual
+from TheExpert.Utilities.changers import (alpha_to_int, int_to_alpha,
                                       time_to_seconds)
 
 __MODULE__ = "Auth Users"
