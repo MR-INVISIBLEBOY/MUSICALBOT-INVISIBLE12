@@ -7,10 +7,10 @@ from pyrogram.types import (CallbackQuery, InlineKeyboardButton,
                             InlineQueryResultPhoto, InputTextMessageContent,
                             Message)
 
-from Yukki import (ASS_CLI_1, ASS_CLI_2, ASS_CLI_3, ASS_CLI_4, ASS_CLI_5,
+from TheExpert import (ASS_CLI_1, ASS_CLI_2, ASS_CLI_3, ASS_CLI_4, ASS_CLI_5,
                    ASSISTANT_PREFIX, BOT_ID, BOT_USERNAME, LOG_GROUP_ID,
                    MUSIC_BOT_NAME, SUDOERS, app)
-from Yukki.Database import (approve_pmpermit, disapprove_pmpermit, is_on_off,
+from TheExpert.Database import (approve_pmpermit, disapprove_pmpermit, is_on_off,
                             is_pmpermit_approved)
 
 flood = {}
