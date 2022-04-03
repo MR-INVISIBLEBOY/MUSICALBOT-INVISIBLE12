@@ -9,22 +9,22 @@ from pyrogram import filters
 from pyrogram.types import (CallbackQuery, InlineKeyboardButton,
                             InlineKeyboardMarkup, InputMediaPhoto, Message)
 
-from Yukki import ASSIDS, BOT_ID, MUSIC_BOT_NAME, OWNER_ID, SUDOERS, app, random_assistant
-from Yukki import boottime as bot_start_time
-from Yukki import db
-from Yukki.Core.PyTgCalls import Yukki
-from Yukki.Database import (add_nonadmin_chat, add_served_chat,
+from TheExpert import ASSIDS, BOT_ID, MUSIC_BOT_NAME, OWNER_ID, SUDOERS, app, random_assistant
+from TheExpert import boottime as bot_start_time
+from TheExpert import db
+from TheExpert.Core.PyTgCalls import Yukki
+from TheExpert.Database import (add_nonadmin_chat, add_served_chat,
                             blacklisted_chats, get_assistant, get_authuser,
                             get_authuser_names, get_start, is_nonadmin_chat,
                             is_served_chat, remove_active_chat,
                             remove_nonadmin_chat, save_assistant, save_start)
-from Yukki.Decorators.admins import ActualAdminCB
-from Yukki.Decorators.permission import PermissionCheck
-from Yukki.Inline import (custommarkup, dashmarkup, setting_markup,
+from TheExpert.Decorators.admins import ActualAdminCB
+from TheExpert.Decorators.permission import PermissionCheck
+from TheExpert.Inline import (custommarkup, dashmarkup, setting_markup,
                           setting_markup2, start_pannel, usermarkup,
                           volmarkup)
-from Yukki.Utilities.assistant import get_assistant_details
-from Yukki.Utilities.ping import get_readable_time
+from TheExpert.Utilities.assistant import get_assistant_details
+from TheExpert.Utilities.ping import get_readable_time
 
 welcome_group = 2
 
