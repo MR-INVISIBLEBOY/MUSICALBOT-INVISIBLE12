@@ -6,7 +6,7 @@
 <p align="center">
 <a href="https://python.org"><img src="http://forthebadge.com/images/badges/made-with-python.svg" alt="made-with-python"></a>
 <br>
-    <img src="https://img.shields.io/github/license/notreallyshikhar/MUSICALBOT-INVISIBLE?style=for-the-badge" alt="LICENSE">
+    <img src="https://img.shields.io/github/license/MR-INVISIBLEBOY/MUSICALBOT-INVISIBLE?style=for-the-badge" alt="LICENSE">
     <img src="https://img.shields.io/github/contributors/MR-INVISIBLEBOY/MUSICALBOT-INVISIBLE?style=for-the-badge" alt="Contributors">
     <img src="https://img.shields.io/github/repo-size/MR-INVISIBLEBOY/MUSICALBOT-INVISIBLE?style=for-the-badge" alt="Repository Size"> <br>
     <img src="https://img.shields.io/github/forks/MR-INVISIBLEBOY/MUSICALBOT-INVISIBLE?style=for-the-badge" alt="Forks">
@@ -22,8 +22,8 @@
 
 <p align="center">
     A Support Group and ready-to-use running instance of this bot can be found on Telegram <br>
-    <a href="https://t.me/MR_INVISIBLE_OFFICIAL"> YukkiMusicBot </a> |
-    <a href="https://t.me/MR_INVISIBLE_OFFICIAL"> YukkiSupport </a>
+    <a href="https://t.me/MR_INVISIBLE_OFFICIAL"> TheExpertMusicBot </a> |
+    <a href="https://t.me/MR_INVISIBLE_OFFICIAL"> InvisibleSupport </a>
 </p>
     
 <h1 align="center">
@@ -47,8 +47,8 @@ sudo pip3 install -U pip
 curl -fssL https://deb.nodesource.com/setup_17.x | sudo -E bash -
 sudo apt-get install nodejs -y
 npm i -g npm
-git clone https://github.com/notreallyshikhar/YukkiMusicBot
-cd YukkiMusicBot
+git clone https://github.com/MR-INVISIBLEBOY/MUSICALBOT-INVISIBLE
+cd TheExpertMusicBot
 pip3 install -U -r requirements.txt
 cp sample.env .env
 ```
