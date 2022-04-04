@@ -1,6 +1,6 @@
 ![photo_2022-04-03_19-50-10](https://user-images.githubusercontent.com/101985120/161437553-ded94eb0-41ef-4410-98a4-25d6108c7308.jpg)
 ![photo_2022-04-01_22-08-09](https://user-images.githubusercontent.com/101985120/161433076-9b1c0228-961b-4b38-b985-148eeb6161bc.jpg)
-<h1 align= center><b>⭐️ THE EXPERT MUSICBOT⭐️</b></h1>
+<h1 align= center><b>⭐️ 𝐓𝐇𝐄 𝐄𝐗𝐏𝐄𝐑𝐓 𝐌𝐔𝐒𝐈𝐂𝐁𝐎𝐓 ⭐️</b></h1>
 <h3 align = center> Multi-Assistant | Video Calls | Voice Calls | Heroku Supported</h3>
 
 <p align="center">
